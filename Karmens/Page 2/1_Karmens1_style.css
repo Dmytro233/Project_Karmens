@@ -1,0 +1,116 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: candara;
+}
+
+.logo {
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+
+.nav_menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.section1 {
+    background-color: #ec041a;
+    height: 550px;
+    /*background: url(../Karmens/Zastavka.jpg) no-repeat center top / cover;*/
+}
+
+.section1 h2 {
+    float: left;
+    margin: 0 auto;
+    font-size: 80px;
+    color: white;
+    padding-top: 70px;
+}
+
+.section1 img {
+    float: right;
+    padding-top: 70px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.section2 {
+    background-color: whitesmoke;
+    height: 550px;
+}
+
+.section2 h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.trainers {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.trainers_el {
+    text-align: center;
+    width: 300px;
+    height: 360px;
+}
+
+.trainers_el img {
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.trainers_el a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+footer a img {
+    position: absolute;
+    left: 50%;
+    padding-top: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}*/
